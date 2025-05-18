@@ -24,7 +24,6 @@ try{
             let num = element.name[i];
             
             if(isNumeric(num)){
-                console.log(num);
                 model += (num)
             }
         }
@@ -37,7 +36,6 @@ try{
         if(element.name.includes("ZIRCON")){
             model += "Z"
         }
-        console.log(model);
         if(model == name){
             product = element
             hasName = true;
@@ -91,7 +89,6 @@ goLeft.addEventListener('click', _=>{
     images.childNodes[--i % images.childNodes.length].style.display = 'block'
 })
 
-console.log(images.style.translate);
 
 let nameD = document.querySelector('#name')
 nameD.innerText = product.name;
