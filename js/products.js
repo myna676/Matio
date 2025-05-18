@@ -1,3 +1,4 @@
+console.log(products);
 
 let productsD = document.querySelector('#products');
 
